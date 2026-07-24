@@ -1,0 +1,232 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f4f7fc;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Buttons */
+.btn {
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+}
+
+/* Form Controls */
+.form-control,
+.form-select {
+  border-radius: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.25);
+}
+
+/* Dashboard Stats Cards */
+.stats-card {
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.stats-primary {
+  background: linear-gradient(135deg, #4e73df, #224abe);
+}
+
+.stats-warning {
+  background: linear-gradient(135deg, #f6c23e, #dda20a);
+}
+
+.stats-info {
+  background: linear-gradient(135deg, #36b9cc, #258391);
+}
+
+.stats-success {
+  background: linear-gradient(135deg, #1cc88a, #13855c);
+}
+
+/* Task Card */
+.task-card {
+  border-left: 6px solid #0d6efd;
+}
+
+/* Badge */
+.badge {
+  font-size: 0.85rem;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+/* Spinner */
+.spinner-border {
+  width: 4rem;
+  height: 4rem;
+}
+
+/* Profile Card */
+.profile-card {
+  border-radius: 20px;
+}
+
+/* Smooth Page Animation */
+.container {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.task-card{
+    transition: all .3s ease;
+    border-radius:16px;
+}
+
+.task-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12)!important;
+}
+/* ===========================
+   Dashboard Cards
+=========================== */
+
+.card {
+    border: none;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+/* ===========================
+   Task Cards
+=========================== */
+
+.task-card {
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+
+.task-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(13,110,253,0.18) !important;
+}
+
+/* ===========================
+   Statistics Cards
+=========================== */
+
+.stats-card {
+    border-radius: 18px;
+    padding: 22px;
+    transition: all 0.3s ease;
+}
+
+.stats-card h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.stats-card h6 {
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+.btn {
+    border-radius: 10px;
+    transition: all 0.25s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+/* ===========================
+   Progress Bar
+=========================== */
+
+.progress {
+    border-radius: 20px;
+}
+
+.progress-bar {
+    border-radius: 20px;
+}
+
+/* ===========================
+   Modal
+=========================== */
+
+.modal-content {
+    border-radius: 20px;
+}
+
+/* ===========================
+   Dashboard Sections
+=========================== */
+
+.card-body h4,
+.card-body h5 {
+    font-weight: 700;
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+footer {
+    background: #ffffff;
+}
+
+footer h5 {
+    font-weight: 700;
+}
