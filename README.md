@@ -218,7 +218,7 @@ Task-Management-System/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Task-Management-System.git
+git clone https://github.com/likhi-2403/Task-Management-System.git
 ```
 
 ---
